@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.popup-content{
+  top:28%!important;
+  left:38%!important;
+  width: 40%!important;
+} 
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.log-buton{
+  width: 100px;
+}
+.profilhead{
+  border-radius: 50%;
+  width: 5%;
+}
+.pointspan{
+  color: red;
+  font-weight: bold;
+}
+.percentspan{
+  color: red;
+  font-weight: bold;
+}
+
+.saga{
+  text-align: right;
+  flex: inherit;
+}
+path{
+  display: none!important;
+}
+.courses{
+  z-index: -999;
+  background: dimgrey;}
+/* .card {
+  
+  margin:35px!important;} */
+.carousel{
+  z-index: 1!important;
+  width: 50%;
+  float: center;
+  /* height: 400px; */
+}
+.carousel-caption{
+  /* bottom:78%!important; */
+}
+.scroll{
+  text-align: center;}
+
+
+.subname{
+  font-weight: bold;
+  font-size: 25px;
+  color:rgb(50, 38, 61);
+}
+.suborder{
+  /* font-weight: bold; */
+  font-size: 16px;
+  color:brown;
+}
+.subpoint{
+  /* font-weight: bold; */
+  font-size:25px;
+  color:blueviolet;
+}
+
+.ul-sub{
+  /* background-color:lightcoral; */
+  width: 100%;
+  padding-top: 10px;
+  /* padding: 1%; */
+}
+
+.list-sub{
+  /* background-color:lightcoral; */
+  width: 100%;
+  height: 50px;
+  text-align: left;
+}

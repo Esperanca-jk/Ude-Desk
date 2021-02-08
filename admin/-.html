@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+   
+</head>
+<body>
+
+    <div>
+        <div class="1">
+            <p id="1-1">Test</p>
+        </div>
+        <div class="2">
+            <p  id="b">Test</p>
+        </div>
+    </div>
+    <script>
+       var dogum = new Date('8/1/1985');
+       var agedif = Date.now() - dogum.getTime();
+       console.log((agedif/60)/3600);
+        var ageda =  new  Date(agedif);
+        console.log(ageda.getFullYear() - 1970);
+    </script>
+</body>
+</html>
